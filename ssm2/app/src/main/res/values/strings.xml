@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Spotify SmartWatch Remote</string>
+    <string name="title_activity_main">Configuration</string>
+    
+    <string name="howto_title">How to get Started</string>
+    <string name="howto_message">Before you can use the Spotify Remote extension you must first tap the button below and select the Spotify widget from the list.</string>
+    <string name="pick_widget">Pick Spotify Widget</string>
+    
+	<string name="config_done_toast">The extension is now configured and ready to be used</string>
+	
+	<string name="no_content">No playlist loaded!</string>
+	
+	<string name="not_configured">Extension not configured. Tap here to get started!</string>
+	
+	<string name="no_spotify_title">Spotify not Installed</string>
+	
+	<string name="no_spotify_message">To be able to use this extension you must install the Spotify app.</string>
+	
+	<string name="install_spotify_button">Install Spotify Now!</string>
+    
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/smart_watch_control_width"
+    android:layout_height="@dimen/smart_watch_control_height"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/album_art"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ContentDescription" />
+
+    <!-- Top gradient -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="28px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/top_gradient" />
+
+    <TextView
+        android:id="@+id/track_name"
+        style="@style/ControlText.SingleLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/no_content"
+        style="@style/ControlText.SingleLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+		android:text="@string/no_content"
+		android:visibility="gone" />
+
+    <!-- Top gradient -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="28px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/bottom_gradient" />
+
+    <TextView
+        android:id="@+id/track_info"
+        style="@style/ControlText.SingleLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
